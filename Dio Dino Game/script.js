@@ -3,7 +3,7 @@ const background = document.querySelector('.background');
 let isJumping = false;
 let position = 0;
 
-function handleKeyUp(event){
+function handleKeyDown(event){
 	if(event.keyCode === 32){
 		if(!isJumping){
 			jump();

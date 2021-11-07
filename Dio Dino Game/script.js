@@ -64,4 +64,4 @@ function createCactus(){
 }
 
 createCactus();
-document.addEventListener('keyup', handleKeyUp);
+document.addEventListener('keydown', handleKeyDown);
